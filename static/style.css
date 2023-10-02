@@ -1,0 +1,31 @@
+.tic-tac-toe_table {
+    border: solid 5px #ff7433;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+    border-spacing: 0;
+}
+
+th {
+    border: solid 2.5px #ff7433;
+}
+
+table#1, #2, #3 {
+    border-top: 0;
+}
+
+#1, #4, #7 {
+    border-left: 0;
+}
+
+#7, #8, #9 {
+    border-bottom: 0;
+}
+
+#3, #6, #9 {
+    border-right: 0;
+}
